@@ -12,7 +12,9 @@ import java.time.LocalDate;
 
 @RestController
 @RequestMapping("/weather")
-public class WeatherController {
+public class WeatherController
+{
+
 
     private final WeatherService weatherService;
 
